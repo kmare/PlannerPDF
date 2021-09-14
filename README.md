@@ -35,7 +35,13 @@ The samples directory structure is divided into a lefthanded/righthanded tree un
 # How to compile
 Make sure you have libharu development library installed. Either compiled from source or from your package manager.
 
+For Ubuntu/Debian:
+
     sudo apt-get install libhpdf-dev
+
+For Fedora/CentOS:
+
+    sudo dnf install libharu-devel
 
 The libharu github page is at:
 
