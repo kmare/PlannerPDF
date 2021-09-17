@@ -282,7 +282,7 @@ public:
               _page_title_font_size * 2,
               x_padding,
               y_padding,
-              FILL_TITLE);
+              1.0); // FILL_TITLE
 
     HPDF_Page_BeginText(_page);
     HPDF_Page_MoveTextPos(
@@ -336,7 +336,7 @@ public:
                 (_page_title_font_size * 2),
                 x_padding,
                 y_padding,
-                FILL_TITLE);
+                1.0); // FILL_TITLE
 
       HPDF_Page_BeginText(_page);
       HPDF_Page_MoveTextPos(_page,
@@ -365,7 +365,7 @@ public:
                 (_page_title_font_size * 2),
                 x_padding,
                 y_padding,
-                FILL_TITLE);
+                1.0); // FILL_TITLE
       HPDF_Page_BeginText(_page);
       HPDF_Page_MoveTextPos(_page,
                             page_title_text_x + title_length + 100 - length,

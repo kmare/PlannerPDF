@@ -75,7 +75,7 @@ public:
   }
 
   void CreateTasksSection(HPDF_Doc& doc) {
-    std::string year_title_string = "Tasks";
+    std::string year_title_string = ""; // tasks
     HPDF_REAL notes_divider_x = _page_width * _note_section_percentage;
     HPDF_REAL section_x_start;
     HPDF_REAL section_y_start;

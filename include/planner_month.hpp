@@ -126,7 +126,7 @@ public:
   }
 
   void BuildDays(HPDF_Doc& doc) {
-    for (auto day : _days) {
+    for (const auto& day : _days) {
       std::static_pointer_cast<PlannerDay>(day)->Build(doc);
     }
   }
@@ -262,7 +262,7 @@ public:
 
   void CreateNavigation(HPDF_Doc& doc) {
     AddNavigation();
-    for (auto day : _days) {
+    for (const auto& day : _days) {
       std::static_pointer_cast<PlannerDay>(day)->CreateNavigation(doc);
     }
   }

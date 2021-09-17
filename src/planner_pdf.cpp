@@ -86,8 +86,8 @@ void CreateThumbnailCaller(HPDF_Doc& doc,
  */
 int main(int argc, char* argv[]) {
   short start_year = 2021;
-  short num_years = 5;
-  std::string filename = "planner.pdf";
+  short num_years = 1;
+  std::string filename = "journal.pdf";
 
   if (argc > 1) {
     int start_year_cl = atoi(argv[1]);
